@@ -32,14 +32,12 @@ var bikes = [
 ];
 
 var biciLeggera = lightBike (bikes);
-console.log(biciLeggera);
+// console.log(biciLeggera);
 
 var bici = document.getElementById("bici");
 
-var {nome} = biciLeggera;
-console.log(nome);
-var {peso} = biciLeggera;
-console.log(peso);
+var {nome, peso} = biciLeggera;
+// console.log(nome, peso);
 
 bici.innerHTML = `
     <h1> La bici più leggera è ${nome} </h1>
