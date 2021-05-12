@@ -2,32 +2,32 @@
 
 var bikes = [
     {
-        name: "Hyper",
-        weight: 25,
+        nome: "Hyper",
+        peso: 25,
     },
     {
-        name: "Nova",
-        weight: 23,
+        nome: "Nova",
+        peso: 23,
     },
     {
-        name: "Morningstart",
-        weight: 23,
+        nome: "Morningstar",
+        peso: 20,
     },
     {
-        name: "Karisma",
-        weight: 21,
+        nome: "Karisma",
+        peso: 21,
     },
     {
-        name: "BMX-250",
-        weight: 25,
+        nome: "BMX-250",
+        peso: 25,
     },
     {
-        name: "Jarvis",
-        weight: 32,
+        nome: "Jarvis",
+        peso: 32,
     },
     {
-        name: "Kawasaki-1080",
-        weight: 27,
+        nome: "Kawasaki-1080",
+        peso: 27,
     }
 ];
 
@@ -36,12 +36,12 @@ console.log(biciLeggera);
 
 var bici = document.getElementById("bici");
 
-var {name} = biciLeggera;
-console.log(name);
-var {weight} = biciLeggera;
-console.log(weight);
+var {nome} = biciLeggera;
+console.log(nome);
+var {peso} = biciLeggera;
+console.log(peso);
 
 bici.innerHTML = `
-    <h1> La bici più leggera è ${name} </h1>
-    <h2> Che pesa ${weight} kg</h2>
+    <h1> La bici più leggera è ${nome} </h1>
+    <h2> Che pesa ${peso} kg</h2>
 `;
